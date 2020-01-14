@@ -1,0 +1,38 @@
+@mixin flex-align($align) {
+  align-items: $align;
+  justify-content: $align;
+}
+
+@mixin size-width($width) {
+  width: $width;
+  max-width: $width;
+}
+
+@mixin buttons($background, $color, $border: none) {
+  border-radius: 50px;
+  padding: 10px 25px;
+  background-color: $background;
+  color: $color;
+  border: $border;
+}
+
+@mixin buttons-action($gradient, $shadow: none) {
+  background: linear-gradient($gradient);
+  box-shadow: $shadow;
+}
+
+  @mixin font($size, $line, $weight: normal) {
+    font-size: $size;
+    color: var(--black);
+    line-height: $line;
+    font-weight: $weight;
+  }
+
+  @mixin circle($size) {
+    border-radius: 50%;
+    border: none;
+    width: $size;
+    height: $size;
+    background-image: linear-gradient(315deg, rgba(255, 255, 255, 0) 0%, rgba(109, 7, 230, 0.08) 100%);
+  }
+

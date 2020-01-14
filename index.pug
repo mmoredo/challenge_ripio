@@ -1,0 +1,156 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title Challenge Ripio
+    link(href='https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap', rel='stylesheet')
+    link(rel='stylesheet', href='sass/main-grid.css')
+  body
+    .grid
+      header.grid-12
+        .margin-35
+          img(src='img/ripio.svg', alt='Ripio')
+        nav.hidden-mobile
+          ul
+            li
+              a(href='#') Comunidad
+            li
+              a(href='#') Market
+            li
+              a(href='#')
+                | Más productos 
+                img(src='img/chevron-down.svg', alt='Desplegar más opciones')
+        .account.hidden-mobile
+          .display-flex.flex-center.margin-35
+            a(href='#') Ingresar
+          div
+            button.register Registrate
+      section.section.banner.grid-12.flex-start
+        .flex-col
+          h1 Descubrí la nueva economía digital
+          p Empezá el camino de la innovación financiera.
+          button.action Abrir mi cuenta
+        .flex-col.main-img
+          img(src='img/recurso.svg', alt='', aria-hidden='true')
+      .circle.hidden-mobile
+      .separator
+      main.grid-12
+        .title-info
+          h2 Qué podés hacer en Ripio
+          p.show-mobile Tenemos un producto para cada una de tus necesidades financieras.
+        .section.flex-center
+          .info.flex-col
+            .title Cuenta en pesos
+            p Activá tu cuenta digital gratis y gestioná tu dinero como prefieras.
+            button.action Más información
+          .flex-col.img-col
+            img(src='img/wallet.svg', alt='', aria-hidden='true')
+        .section.flex-center
+          .flex-col.img-col
+            img(src='img/exchange.svg', alt='', aria-hidden='true')
+          .info.flex-col
+            .title Exchange
+            p Compra y vende criptomonedas. El precio lo pones tú.
+            button.action Más información
+        .section.flex-center
+          .info.flex-col
+            .title OTC
+            p Trading para instituciones e inversores mayoristas.
+            button.action Más información
+          .flex-col.img-col
+            img(src='img/otc.svg', alt='', aria-hidden='true')
+      .separator.sections
+      section.grid-12
+        .section
+          .flex-left
+            h3 Protegemos lo más valioso para vos
+            p Todos tus activos en un solo lugar. Libres de riesgo y complicaciones.
+          .flex-right
+            .flex-cards
+              div
+                .card
+                  img(src='img/seguridad.svg', alt='', aria-hidden='true')
+                  h4 Seguridad
+                  p Combinamos HTTPS, Cloudfare e cold storage para proteger seus fundos.
+                  a(href='') Entenda
+                .card
+                  img(src='img/inova.svg', alt='', aria-hidden='true')
+                  h4 Inovação
+                  p Somos líderes em desen- volvimento de blockchain e smart contracts.
+                  a(href='') Entenda
+              div
+                .card
+                  img(src='img/confianza.svg', alt='', aria-hidden='true')
+                  h4 Confianza
+                  p Mais de 250.000 pessoas escolheram utilizar nossa plataforma.
+                  a(href='') Sobre nós
+      .separator.sections
+      footer.grid-12
+        .section
+          .col
+            .col-left
+              .title Empezá el camino de la innovación financiera.
+              button.white Registrate
+              button.border Iniciar sesión
+          .col.hidden-mobile
+            .subtitle Productos
+            ul
+              li
+                a(href='#') Cuenta en pesos
+              li
+                a(href='#') Criptomonedas
+              li
+                a(href='#') Créditos
+              li
+                a(href='#') Exchange
+              li
+                a(href='#') OTC
+          .col.hidden-mobile
+            .subtitle Aprender
+            ul
+              li
+                a(href='#') Cotización BTC
+              li
+                a(href='#') ¿Cómo comprar BTC?
+              li
+                a(href='#') Ripio TV
+              li
+                a(href='#') Blog
+              li
+                a(href='#') Comunidad
+          .col.hidden-mobile
+            .subtitle Institucional
+            ul
+              li
+                a(href='#') Nosotros
+              li
+                a(href='#') Trabajá con nosotros
+              li
+                a(href='#') Términos y condiciones
+              li
+                a(href='#') Help center
+              li
+                a(href='#') FAQ
+        .section.line
+          .flex-center.disclaimer
+            p
+              | © 2018 Ripio | Las transacciones de activos digitales y criptomonedas representan inversiones
+              | de alto
+              | riesgo
+              | y no son recomendadas para todo tipo de inversores.
+          .social.flex-center
+            ul
+              li
+                img(src='img/facebook.svg', alt='Facebook')
+              li
+                img(src='img/twitter.svg', alt='Twitter')
+              li
+                img(src='img/instagram.svg', alt='Instagram')
+              li
+                img(src='img/youtube.svg', alt='YouTube')
+              li
+                img(src='img/linkedin.svg', alt='LinkedIn')
+          .footer-logo.flex-center
+            img(src='img/ripio_white.svg', alt='Ripio')
